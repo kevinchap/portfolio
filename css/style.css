@@ -1,0 +1,494 @@
+html{
+	font-size: 62.5%;
+	-webkit-font-smoothing: antialiased;
+	font-family: "Futura-Light";
+}
+body{
+	background-color: #03060f;
+	background-repeat: repeat-y;
+}
+
+p.thanksNoResponsive{
+	display:none;
+	color: white;
+	text-align: center;
+}
+
+#back-load{
+	width:100%;
+	background-color: #03060f;
+	position:fixed;
+	top:0;
+	z-index:100;
+	opacity: 1;
+}
+#progress_bar{
+	height: 30px;
+	width: 0%;
+	background-color: #fff;
+	position:absolute;
+	top:50%;
+	margin-top:-15px;
+}
+#back-load p{
+	color:white;
+	font-size:10rem;
+	font-family: "Futura-Heavy";
+	position:absolute;
+	top:50%;
+	margin-top:-100px;
+	left:50%;
+	margin-left:-100px;
+}
+
+
+/* header */
+header{
+	position:fixed;
+	top:-80px;
+	z-index:10;
+	height:80px;
+	width:100%;
+	-webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    transition:all 1s ease;
+}
+header svg{
+	margin:10px 0 10px 25px;
+}
+header a.logo svg path{
+	fill:white;
+}
+header a.logo.logoAboutContact svg path{
+	fill:#03060f;
+}
+header nav{
+	text-align: right;
+}
+header #buttonMenu{
+	cursor:pointer;
+	margin:25px;
+	display:inline-block;
+	-webkit-transition:all .5s ease;
+    -moz-transition:all .5s ease;
+    -o-transition:all .5s ease;
+    transition:all .5s ease;
+}
+.buttonNonRotate{
+	-webkit-transform:rotate(0deg);
+    -moz-transform:rotate(0deg);
+    -ms-transform:rotate(0deg);
+    -o-transform:rotate(0deg);
+    transform:rotate(0deg);
+}
+.buttonRotate{
+	-webkit-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -ms-transform:rotate(180deg);
+    -o-transform:rotate(180deg);
+    transform:rotate(180deg);
+}
+header #buttonMenu span{
+	display:block;
+	height:4px;
+	width:30px;
+	margin:4px 0;
+	background-color: white;
+	-webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    -webkit-transition:all .5s ease;
+    -moz-transition:all .5s ease;
+    -o-transition:all .5s ease;
+    transition:all .5s ease;
+}
+header #buttonMenu span.buttonAboutContact{
+	background-color: #03060f;
+}
+header ul{
+	text-align:right;
+	font-size: 3.2rem;
+	margin-right:60px;
+	overflow:hidden;
+	margin-top:-56px;
+}
+header ul li{
+	display:inline-block;
+	margin-right:25px;
+	-webkit-transition:all .5s ease;
+    -moz-transition:all .5s ease;
+    -o-transition:all .5s ease;
+    transition:all .5s ease;
+}
+.menuNonActive{
+	margin-right:-130px;
+}
+.menuActive{
+	margin-right:25px;
+}
+header ul li:last-child{
+	margin-bottom:0;
+}
+header ul a{
+	color:white;
+	display:block;
+	-webkit-transition:all .5s ease;
+    -moz-transition:all .5s ease;
+    -o-transition:all .5s ease;
+    transition:all .5s ease;
+}
+header ul:hover a{
+	color:transparent;
+	text-shadow: 0px 0px 4px #fff;
+}
+header ul:hover li:hover a{
+	color:white;
+	text-shadow: none;
+}
+header ul.linksAboutContact a{
+	color:#03060f;
+	display:block;
+	-webkit-transition:all .5s ease;
+    -moz-transition:all .5s ease;
+    -o-transition:all .5s ease;
+    transition:all .5s ease;
+}
+header ul.linksAboutContact:hover a{
+	color:transparent;
+	text-shadow: 0px 0px 4px #03060f;
+}
+header ul.linksAboutContact:hover li:hover a{
+	color:#03060f;
+	text-shadow: none;
+}
+/* end header */
+
+/* home */
+#section0{
+	background-image: url("../img/back-home.jpg");
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+.content-home{
+	width:970px;
+	margin:0 auto;
+}
+.content-home div{
+	color:white;
+	text-align: right;
+	overflow: hidden;
+	margin:40px 0 0 75px;
+}
+h1, .content-home h2{
+	-webkit-transition:all .5s ease;
+    -moz-transition:all .5s ease;
+    -o-transition:all .5s ease;
+    transition:all .5s ease;
+}
+h1{
+	font-size:5.6rem;
+	font-family: "Futura-Book";
+	line-height:76px;
+	text-transform: uppercase;
+}
+h2{
+/*	width:300px;
+*/	color:#13b4c1;
+	text-transform: uppercase;
+	font-family: "Futura-Book";
+}
+.content-home h2{
+	font-size:2.6rem;
+	font-family: "Futura-Light";
+}
+.identityNoVisible{
+	margin-left: -490px;
+}
+.identityVisible{
+	margin-right: 0px;
+}
+.content-home svg{
+	margin-right:75px;
+}
+.intership{
+	color:white;
+	text-align: center;
+	font-size: 3.0rem;
+}
+.content-home a.arrowLink{
+	position: absolute;
+	bottom: -28px;
+	left: 50%;
+	margin-left: -25px;
+	opacity:.4;
+	-webkit-transition:all .3s ease;
+    -moz-transition:all .3s ease;
+    -o-transition:all .3s ease;
+    transition:all .3s ease;
+}
+.content-home a.arrowLink:hover{
+	opacity:1;
+}
+.content-home div.arrow{
+	width:50px;
+	height:28px;
+	margin:0;
+	background-image: url("../img/arrow.png");
+	background-repeat: no-repeat;
+}
+/* end home */
+
+/* about */
+#section1{
+	background-image:url("../img/back-about.jpg");
+	background-position:center left;
+	background-size: 130%;
+	background-repeat: no-repeat;
+}
+.content-about{
+	width:1024px;
+	margin:0 auto;
+}
+.content-about h2{
+	font-size:3.5rem;
+}
+p{
+	font-size:2rem;
+	color:#03060f;
+	line-height:26px;
+	margin-top:20px;
+	margin-bottom:15px;
+}
+#section1 ul{
+	width:45%;
+}
+#section1 ul li{
+	margin-bottom:20px;
+}
+#section1 strong{
+	font-size:2.2rem;
+	color:#03060f;
+}
+#section1 em{
+	font-size:2.2rem;
+	font-family: "Futura-Heavy";
+	color:#03060f;
+}
+.levelBar{
+	height:4px;
+	width:100%;
+	background-color:#bdbdbd;
+	margin-top:3px;
+}
+.progressBar{
+	height:4px;
+	width:0;
+	background-color:#13b4c1;
+	-webkit-transition:all 2s ease;
+    -moz-transition:all 2s ease;
+    -o-transition:all 2s ease;
+    transition:all 2s ease;
+}
+#section1 a{
+	color:#13b4c1;
+}
+#section1 a:hover{
+	text-decoration: underline;
+}
+/* end about */
+
+/* work */
+#section2{
+	background-color:#03060f;
+}
+#section2 ul{
+	width:25%;
+	float:left;
+	margin:0 5px;
+}
+#section2 ul:first-child{
+	margin-left:10px;
+}
+#section2 ul li{
+	overflow: hidden;
+	background-position: center center;
+	position:relative;
+}
+#section2 ul li:first-child{
+	margin-bottom: 10px;
+}
+#section2 .cbs{
+	background-image: url('../img/cbs.jpg');
+}
+#section2 .alanotre{
+	background-image: url('../img/alanotre.jpg');
+}
+#section2 .mene{
+	background-image: url('../img/meneconstruction.jpg');
+}
+#section2 .nike{
+	background-image: url('../img/nike.jpg');
+}
+#section2 .alre{
+	background-image: url('../img/alrepeinture.jpg');
+}
+#section2 .bigbang{
+	background-image: url('../img/bigbang.jpg');
+}
+#section2 ul a{
+	display:block;
+}
+#section2 ul a li{
+	position: relative;
+}
+#section2 ul a li div{
+	width:100%;
+	position:absolute;
+	background-color:rgba(3,6,15,.8);
+	-webkit-transition:all .5s ease;
+    -moz-transition:all .5s ease;
+    -o-transition:all .5s ease;
+    transition:all .5s ease;
+}
+#section2 .workDescription{
+	bottom:0;
+}
+#section2 .seeWork{
+	top:-100%;
+}
+#section2 .workDescription p, #section2 .seeWork p{
+	text-align: center;
+	font-size:2.6rem;
+	color:#13b4c1;
+	font-family: "Futura-Medium";
+}
+#section2 .workDescription em{
+	font-size:1.6rem;
+	font-family: "Futura-Light";
+	color:white;
+}
+#section2 .workDescription strong{
+	font-size:2.2rem;
+	font-family: "Futura-Book";
+}
+#section2 ul a li:hover .workDescription{
+	bottom:-100%;
+}
+#section2 ul a li:hover .seeWork{
+	top:0;
+}
+/* end work */
+
+/* contact */
+#section3{
+	background-image: url("../img/back-contact.jpg");
+	background-position:bottom right;
+	background-repeat: no-repeat;
+}
+.content-contact{
+	width:1024px;
+	margin:0 auto;
+}
+.content-contact h2{
+	font-size:3.5rem;
+}
+.social{
+ 	width:30%;
+}
+.socialButtons{
+	margin-top:40px;
+}
+.social ul li{
+	display:inline-block;
+	margin:0 10px;
+	opacity: 0.5;
+	-webkit-transition:all .2s ease;
+    -moz-transition:all .2s ease;
+    -o-transition:all .2s ease;
+    transition:all .2s ease;
+}
+.social ul li:hover{
+	opacity: 1;
+}
+.social ul li:first-child{
+	margin-left: 0;
+}
+.social ul li:last-child{
+	margin-right: 0;
+}
+.social ul li a{
+	display:block;
+}
+fieldset{
+	width:70%;
+	margin-top:20px;
+}
+fieldset input, fieldset textarea, fieldset button{
+	display:block;
+	margin:0;
+	color:03060f;
+	font-family: "Futura-Light";
+	font-size:2rem;
+	background-color:transparent;
+}
+fieldset input{
+	width:48%;
+	border:none;
+	border-bottom:1px solid #13b4c1;
+	margin-bottom:10px;
+}
+fieldset textarea{
+	width:100%;
+	height:155px;
+	resize:none;
+	padding:0;
+	border-color: #13b4c1;
+	background-color: #efeeed;
+}
+fieldset button{
+	background-color: #13b4c1;
+	border:none;
+	font-size: 2.6rem;
+	font-family: "Futura-Heavy";
+	color:white;
+	text-transform: uppercase;
+	cursor:pointer;
+	padding:0 50px;
+	margin-left:75%;
+	margin-top:-20px;
+}
+.error,.success{
+	color:#13b4c1;
+	font-size:2.0rem;
+	margin-bottom:10px;
+}
+	/* - footer - */
+	footer{
+		height:20px;
+		width:100%;
+		position:absolute;
+		bottom:0;
+		background-color:#03060f;
+	}
+	footer p{
+		font-size: 1.2rem;
+		font-family: "Futura-Book";
+		color: #ffffff;
+		line-height: auto;
+		margin:0;
+		text-align: center;
+	}
+	/* - end footer - */
+/* end contact */
+
+/* ////// RESPONSIVE \\\\\\\ */
+@media screen and (max-width:1024px) {
+	#section0.displayNoneResponsive,#section1.displayNoneResponsive, #section2.displayNoneResponsive, #section3.displayNoneResponsive, .displayNoneResponsive{
+		display:none;	
+	}
+	p.displayBlockResponsive{
+		display:block;
+	}
+}
+/* ////// END RESPONSIVE \\\\\\\ */

@@ -1,0 +1,55 @@
+@font-face {
+	font-family: 'Futura-Book';
+	src: url('../fonts/FuturaStd-Book.eot?') format('eot'), 
+	     url('../fonts/FuturaStd-Book.woff') format('woff'), 
+	     url('../fonts/FuturaStd-Book.ttf')  format('truetype'),
+	     url('../fonts/FuturaStd-Book.svg#FuturaStd-Book') format('svg');
+}
+@media screen and (-webkit-min-device-pixel-rapport: 0) {
+    @font-face {
+        font-family: 'Futura-Book';
+        src: url ('../fonts/FuturaStd-Book.svg#FuturaStd-Book') format('svg');
+    }
+}
+
+@font-face {
+	font-family: 'Futura-Heavy';
+	src: url('../fonts/FuturaStd-Heavy.eot?') format('eot'), 
+	     url('../fonts/FuturaStd-Heavy.woff') format('woff'), 
+	     url('../fonts/FuturaStd-Heavy.ttf')  format('truetype'),
+	     url('../fonts/FuturaStd-Heavy.svg#FuturaStd-Heavy') format('svg');
+}
+@media screen and (-webkit-min-device-pixel-rapport: 0) {
+    @font-face {
+        font-family: 'Futura-Heavy';
+        src: url ('../fonts/FuturaStd-Heavy.svg#FuturaStd-Heavy') format('svg');
+    }
+}
+
+@font-face {
+	font-family: 'Futura-Light';
+	src: url('../fonts/FuturaStd-Light.eot?') format('eot'), 
+	     url('../fonts/FuturaStd-Light.woff') format('woff'), 
+	     url('../fonts/FuturaStd-Light.ttf')  format('truetype'),
+	     url('../fonts/FuturaStd-Light.svg#FuturaStd-Light') format('svg');
+}
+@media screen and (-webkit-min-device-pixel-rapport: 0) {
+    @font-face {
+        font-family: 'Futura-Light';
+        src: url ('../fonts/FuturaStd-Light.svg#FuturaStd-Light') format('svg');
+    }
+}
+
+@font-face {
+	font-family: 'Futura-Medium';
+	src: url('../fonts/FuturaStd-Medium.eot?') format('eot'), 
+	     url('../fonts/FuturaStd-Medium.woff') format('woff'), 
+	     url('../fonts/FuturaStd-Medium.ttf')  format('truetype'),
+	     url('../fonts/FuturaStd-Medium.svg#FuturaStd-Medium') format('svg');
+}
+@media screen and (-webkit-min-device-pixel-rapport: 0) {
+    @font-face {
+        font-family: 'Futura-Medium';
+        src: url ('../fonts/FuturaStd-Medium.svg#FuturaStd-Medium') format('svg');
+    }
+}
